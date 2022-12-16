@@ -21,6 +21,40 @@
       box-sizing: border-box;
       font-family: "Lato";
     }
+    /* ===== Scrollbar CSS ===== */
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+    ::-webkit-scrollbar-button {
+      width: 0px;
+      height: 0px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #9494b8;
+      border: 0px none #ffffff;
+      border-radius: 50px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #9494b8;
+    }
+    ::-webkit-scrollbar-thumb:active {
+      background: #ddddf7;
+    }
+    ::-webkit-scrollbar-track {
+      background: #ddddf7;
+      border: 0px none #ffffff;
+      border-radius: 100px;
+    }
+    ::-webkit-scrollbar-track:hover {
+      background: #ddddf7;
+    }
+    ::-webkit-scrollbar-track:active {
+      background: #ddddf7;
+    }
+    ::-webkit-scrollbar-corner {
+      background: transparent;
+    }
   </style>
   <body>
     <div id="root"></div>
