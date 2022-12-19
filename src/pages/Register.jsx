@@ -67,7 +67,7 @@ const Register = () => {
             <span>Adicione uma foto</span>
           </label>
           <button>Cadastrar</button>
-          {/* {err & <span>Algo deu errado, tente novamente</span>} */}
+          {err && <span>Algo deu errado, tente novamente</span>}
           <p>
             Já tem uma conta? Clique aqui para fazer o
             <Link to="/login">login</Link>

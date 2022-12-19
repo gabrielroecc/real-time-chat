@@ -27,7 +27,7 @@ const Login = () => {
           <input type="email" placeholder="Digite o seu e-mail" />
           <input type="password" placeholder="Digite a sua senha" />
           <button>Entrar</button>
-
+          {err && <span>Algo deu errado, tente novamente</span>}
           <p>
             Ainda não tem uma conta? <Link to="/register">Cadastre-se!</Link>
           </p>
